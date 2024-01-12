@@ -12,7 +12,9 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      - test.scss
+      - cosmo
     css: main.scss
     toc: false
     page-layout: full
